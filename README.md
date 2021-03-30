@@ -1,7 +1,7 @@
-"# InterviewQuestions" 
+# InterviewQuestions
 ***
-"# Collections" 
-"# Streams" 
+1. Collections 
+2. Streams" 
 "# REST API" 
 "# Design pattern"
 "# Java 8" 
