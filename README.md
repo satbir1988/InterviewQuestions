@@ -1,7 +1,8 @@
 # InterviewQuestions
 ***
-1. Collections 
-2. Streams" 
+1. Collections
+---
+3. Streams" 
 "# REST API" 
 "# Design pattern"
 "# Java 8" 
