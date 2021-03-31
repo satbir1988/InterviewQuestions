@@ -1,10 +1,17 @@
+package com.answers;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
 public class EmployeeUtility {
+	
+	private static Integer[] arrayInteger = new Integer[] {9,7,8,12,15,3,6,37};
 
 	public static Map<Integer, List<Employee>> compareAndSort() {
 		System.out.println("*****************CompareAndSort****************");
@@ -86,6 +93,56 @@ public class EmployeeUtility {
 				}));
 		System.out.println(minName);
 		return minName;
+	}
+	
+	public static void getDistinct() {
+		System.out.println("*****************Distinct****************");
+		List<String> distinct = getEmployees().stream().map(Employee::getName).distinct().collect(Collectors.toList());
+		System.out.println(distinct);
+	}
+	
+	public static void getCount() {
+		System.out.println("*****************Count****************");
+		Long count = getEmployees().stream().map(Employee::getName).count();
+		System.out.println(count);
+	}
+	
+	public static String getMax() {
+		System.out.println("*****************Max****************");
+		String maxName = getEmployees().stream().map(Employee::getName).max(Comparator.naturalOrder()).get();
+		System.out.println(maxName);
+		return maxName;
+	}
+	
+	public static String getMin() {
+		System.out.println("*****************Min****************");
+		String maxName = getEmployees().stream().map(Employee::getName).min(Comparator.naturalOrder()).get();
+		System.out.println(maxName);
+		return maxName;
+	}
+	
+	public static void sortArray() {
+		System.out.println("*****************Sort Array****************");
+		Integer[] arrayInteger = new Integer[] {9,7,8,12,15,3,6,37};
+		Arrays.sort(arrayInteger);
+		System.out.println("Sorted Array " + Arrays.asList(arrayInteger));
+		
+		Integer[] streamArray = new Integer[] {9,7,8,12,15,3,6,37};
+		
+		List<Integer> sortedList = Arrays.asList(streamArray).stream().sorted().collect(Collectors.toList());
+		System.out.println("Sorted Array using stream" + Arrays.asList(sortedList));
+	}
+	
+	public static void sum() {
+		Integer sum = Arrays.stream(arrayInteger).mapToInt(Integer::intValue).sum();
+		System.out.println("*****************Sum****************");
+		System.out.println(sum);
+	}
+	
+	public static void avg() {
+		OptionalDouble avg = Arrays.stream(arrayInteger).mapToInt(Integer::intValue).average();
+		System.out.println("*****************Average****************");
+		System.out.println(avg);
 	}
 
 

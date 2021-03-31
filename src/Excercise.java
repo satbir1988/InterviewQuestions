@@ -1,3 +1,4 @@
+package com.answers;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -73,6 +74,13 @@ public class Excercise {
 		EmployeeUtility.collectingAndThen();
 		EmployeeUtility.getMaxName();
 		EmployeeUtility.getMinName();
+		EmployeeUtility.getMax();
+		EmployeeUtility.getMin();
+		EmployeeUtility.getDistinct();
+		EmployeeUtility.getCount();
+		EmployeeUtility.sortArray();	
+		EmployeeUtility.sum();
+		EmployeeUtility.avg();
 
 	}
 
