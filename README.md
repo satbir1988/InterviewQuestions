@@ -32,9 +32,32 @@
 6. What is difference between Aggregator and inheritance design pattern?
 ---
 ## Java 8
+1. What is functional interface?
+2. What is Lambda expression?
+3. How to get distinct elements from a collections?
+4. What is filter in streams?
+5. what is map and flatMap?
+6. What is improvment in garbage collection in java 8?
+7. What are key features of java 8?
+8. How to find even numbers in streams?
+9. Hoe to sort Map By value?
+10. How to group by department by id and sort the employee for each department?
+11. How to get string of max length in array of String?
 ---
 ## Micro Services
 ---
 ## Spring
+1. what are scopes in spring?
+2. What is qualifier?
+3. What is DI and what are different ways to inject beans?
+4. What is RestController?
+5. How to identify what kind of content type an end point will consumes and produces?
 ---
 ## Hibernate
+1. what is difference between Hibernate and JPA?
+2. what is difference between first level and second level cache?
+3. What is difference between get and load?
+4. What is cascade?
+5. what is orphan removal?
+6. What are the pros of hibernate?
+
