@@ -9,6 +9,7 @@
 5. What is Fastfail?
 6. How to make List not modifiable?
 7. What is difference between Array and Vector?
+8. how to override hashcode and equals method?
 
 ## Core JAVA
 1. What is immutable?
