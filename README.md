@@ -10,6 +10,16 @@
 6. How to make List not modifiable?
 7. What is difference between Array and Vector?
 
+## Core JAVA
+1. What is immutable?
+2. Why is string immutable?
+3. How to make class immtuable?
+4. What is pass by value or pass by reference?
+5. Is Java pass by value or reference?
+6. What is final, finally and finalize?
+7. what is checked exception?
+8. what should be sequence of exceptions in catch block ? Generic or specifics ones should come first?
+
 ## Multi threading
 1. what is an executors?
 2. what are different executors?
