@@ -46,6 +46,7 @@
 5. Why REST API Is stateless?
 6. How can we implements security in REST API?
 7. How to test a REST service?
+8. Difference between REST and SOAP
 ---
 ## Design pattern
 1. Tell us about any design pattern?
@@ -89,6 +90,7 @@
 3. What is the actuator?
 4. How can we change port for an server?
 5. How to change the profile?
+6. How to load a new user defined properties file?
 ---
 ## Hibernate
 1. what is difference between Hibernate and JPA?
